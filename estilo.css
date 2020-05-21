@@ -52,7 +52,7 @@ a {
   text-decoration: none;
 }
 .titulo {
-  transform: scale(0.2) translateY(50vh);
+  transform: scale(0.3) translateY(50vh);
   opacity: 0;
   animation: linear 2s animacaotitulo forwards;
   
@@ -64,10 +64,8 @@ a {
   100% {
     transform: scale(.7) translateY(0);
   opacity: 1;
+      }
   }
-
-}
-.site-sub,
 .site-title {
   text-align: center;
   font-family: 'Nova Mono', monospace;
