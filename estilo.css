@@ -146,7 +146,7 @@ grid-template-columns: 240px 240px;
       text-align: center;
     }   
     .img-projeto:hover {
-      transform: scale(1);
+      transform: scale(2);
       object-fit: scale-down;
       object-position: center;
   }
