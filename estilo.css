@@ -46,8 +46,8 @@ list-style: none;
 }
 /*quando o mousse é pausado em cima, a cor de fundo e fonte são alteradas*/
 .menu a:hover {
-  background-color: black;
-  color: whitesmoke;
+  background-color: whitesmoke;
+  color: black;
 }
 /*para tirar os underlines do texto*/
 a {
