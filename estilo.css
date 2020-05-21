@@ -145,4 +145,9 @@ grid-template-columns: 240px 240px;
       font-size: 1.0em;
       text-align: center;
     }   
+    .img-projeto:hover {
+      transform: scale(1);
+      object-fit: scale-down;
+      object-position: center;
   }
+}
