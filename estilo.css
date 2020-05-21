@@ -46,8 +46,8 @@ list-style: none;
 }
 /*quando o mousse é pausado em cima, a cor de fundo e fonte são alteradas*/
 .menu a:hover {
-  background-color: whitesmoke;
-  color: #333;
+  background-color: black;
+  color: whitesmoke;
 }
 /*para tirar os underlines do texto*/
 a {
@@ -74,7 +74,7 @@ a {
   text-align: center;
   font-family: 'Nova Mono', monospace;
   line-height: 2em;
-  color: whitesmoke;
+  color: black;
 }
 /*Define o tamanho do titulo-subtitulo*/
 .site-title {
@@ -86,7 +86,7 @@ a {
 
 .Gatos {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: whitesmoke;
+color: black;
 font-size: 1.5em;
 line-height: 4em;
 padding: 1.5em;
