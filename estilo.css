@@ -1,0 +1,148 @@
+* {
+  /* reset do CSS */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/236x/53/4c/ce/534ccefe0fcc178ba2bbaed1655b6df2.jpg);
+  font-family: 'Amatic SC', cursive;
+  font-family: 'Cutive Mono', monospace;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 12px;
+}
+/*breakpoint - Se a tela tiver pelo menos 400px, vai carregar esses estilos*/
+@media (min-width: 600px ) {
+  body {
+    font-size: 14px;
+  }
+}
+header {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  position: fixed;
+  width: 100vw; 
+  top: 0;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+.menu li {
+list-style: none;
+}
+.menu a {
+  color: whitesmoke; 
+  padding: 0px 20px;
+  display: block; 
+  font-size: 1.3em;
+  transition: background-color 3s, color 2s;
+  
+}
+/*quando o mousse é pausado em cima, a cor de fundo e fonte são alteradas*/
+.menu a:hover {
+  background-color: whitesmoke;
+  color: #333;
+}
+/*para tirar os underlines do texto*/
+a {
+  text-decoration: none;
+}
+.titulo {
+  transform: scale(0.2) translateY(50vh);
+  opacity: 0;
+  animation: linear 2s animacaotitulo forwards;
+  
+}
+@keyframes animacaotitulo {
+  0% {
+
+  }
+  100% {
+    transform: scale(.7) translateY(0);
+  opacity: 1;
+  }
+
+}
+.site-sub,
+.site-title {
+  text-align: center;
+  font-family: 'Nova Mono', monospace;
+  line-height: 2em;
+  color: whitesmoke;
+}
+/*Define o tamanho do titulo-subtitulo*/
+.site-title {
+  font-size: 3em;
+}
+.site-sub {
+  font-size: 2em;
+}
+
+.Gatos {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: whitesmoke;
+font-size: 1.5em;
+line-height: 4em;
+padding: 1.5em;
+min-height: 100vh;
+text-align: center;
+}
+/*transformar em colunas imagens e textos*/
+.Gatos .grid {
+  display: grid;
+   gap: 1.5em;
+}
+/*condições para formatação de tela-imagens*/
+@media (min-width: 560px) {
+  .Gatos .grid {
+grid-template-columns: 240px 240px;
+  }
+}
+@media (min-width: 880px) {
+  .Gatos .grid {
+    /*função repeat dispensa ter que repetir quantas colunas você quer*/
+  grid-template-columns: repeat(4, 240px);
+  justify-content: center;
+  }
+}
+/*alinhar textos e imagens*/
+.Gatos figure {
+  text-align: center;
+}
+/*tamanho das imagens, ajustes de imagens*/
+.img-projeto {
+  height: 180px;
+  width: 240px;
+  object-fit: cover;
+  /*arredondar bordas*/
+  border-radius: 50px;
+ 
+}
+@media (min-width: 1200px) {
+  .img-projeto {  
+      width: 180px;
+      height: 240px;
+    }
+    .contato a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: whitesmoke;
+      font-size: 1.3em;      
+    }
+    .contato a :hover {
+      text-decoration: none;
+      /*cria uma sombra no ícone quando o mousse para em cima*/
+      text-shadow: 0px 0px 10px rgba(255, 255, 255, .5);
+    }
+    .contato h2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: whitesmoke;
+      font-size: 1.0em;
+      text-align: center;
+    }   
+  }
