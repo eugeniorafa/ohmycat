@@ -41,12 +41,10 @@ list-style: none;
   padding: 0px 20px;
   display: block; 
   font-size: 1.3em;
-  transition: background-color 3s, color 2s;
-  
 }
 /*quando o mousse é pausado em cima, a cor de fundo e fonte são alteradas*/
 .menu a:hover {
-  background-color: whitesmoke;
+  text-decoration: underline;
   color: black;
 }
 /*para tirar os underlines do texto*/
