@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(https://image.freepik.com/free-vector/cat-planet-seamless-pattern-background_42349-755.jpg);
+  background-image: url(https://dmhxz00kguanp.cloudfront.net/fotos/128848/papel-de-parede-estrelinhas-fundo-cinza-com-azul-e-branco-1m-x-1-70m-286858.jpg);
   font-family: 'Amatic SC', cursive;
   font-family: 'Cutive Mono', monospace;
   font-family: 'Source Code Pro', monospace;
@@ -42,10 +42,10 @@ list-style: none;
   display: block; 
   font-size: 1.3em;
 }
-/*quando o mousse é pausado em cima, a cor de fundo e fonte são alteradas*/
+/*quando o ponteiro é pausado em cima, a cor de fundo e fonte são alteradas*/
 .menu a:hover {
-  text-decoration: underline;
   color: black;
+  font-size: 2em;
 }
 /*para tirar os underlines do texto*/
 a {
@@ -55,7 +55,6 @@ a {
   transform: scale(0.3) translateY(50vh);
   opacity: 0;
   animation: linear 2s animacaotitulo forwards;
-  
 }
 @keyframes animacaotitulo {
   0% {
@@ -74,10 +73,11 @@ a {
 }
 /*Define o tamanho do titulo-subtitulo*/
 .site-title {
-  font-size: 3em;
+  font-size: 4em;
 }
 .site-sub {
   font-size: 2em;
+  text-align: center  ;
 }
 
 .Gatos {
@@ -127,7 +127,7 @@ grid-template-columns: 240px 240px;
     }
     .contato a {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: whitesmoke;
+      color: black;
       font-size: 1.3em;      
     }
     .contato a :hover {
@@ -137,7 +137,7 @@ grid-template-columns: 240px 240px;
     }
     .contato h2 {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: whitesmoke;
+      color: black;
       font-size: 1.0em;
       text-align: center;
     }   
