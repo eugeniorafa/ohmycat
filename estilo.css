@@ -45,7 +45,7 @@ list-style: none;
 /*quando o ponteiro é pausado em cima, a cor de fundo e fonte são alteradas*/
 .menu a:hover {
   color: black;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 /*para tirar os underlines do texto*/
 a {
@@ -76,7 +76,7 @@ a {
   font-size: 4em;
 }
 .site-sub {
-  font-size: 2em;
+  font-size: 4em;
   text-align: center  ;
 }
 
